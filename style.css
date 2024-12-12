@@ -1,0 +1,130 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 2px;
+    background-image: url(https://img.freepik.com/premium-vector/soft-pink-abstract-watercolor-background_3590-176.jpg);
+}
+
+form{
+    margin: auto;
+    background-color: rgb(253, 222, 227);
+    border-radius: 8px;
+    box-shadow: 0;
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+
+fieldset{
+    border: 2px solid rgb(202, 88, 97);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(247, 204, 214);
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    font-size: 175%;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(8, 8, 8);
+    font-size: 125%;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(243, 105, 174);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: rgb(243, 235, 224);
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(245, 205, 247);
+    color: rgb(14, 13, 14);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(195, 211, 248);
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2yPnYakFNDlJrA7JqYeRaJEQqNnIjtNY8Mw&s);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* resume editable */
+    outline: none;
+}
+
+#resume-display h2 {
+    color: black;
+    text-align: center;
+    font-size: 200%;
+}
+
+#resume-display h3 {
+    font-size: 150%;
+}
+
+#resume h3.p {
+    font-size: 100%;
+} 
+
+#shareable-link-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* resume editable */
+    outline: none;
+}
+
+#downloadpdf{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(245, 205, 247);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* resume editable */
+    outline: none;
+}
+
+#downloadpdf:hover{
+    background-color: rgb(208, 226, 243);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
